@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Software Engineer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#personal">Personal Details</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Work Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+    </ul>
+  </nav>
+
+  <section id="personal">
+    <h2>Personal Details</h2>
+    <p>Name: John Doe</p>
+    <p>Date of Birth: January 1, 1990</p>
+    <p>Email: john.doe@example.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>Bachelor of Science in Computer Science</p>
+    <p>University of Example</p>
+    <p>Graduation Year: 2012</p>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <h3>Software Engineer</h3>
+    <p>ABC Company</p>
+    <p>2012 - Present</p>
+    <ul>
+      <li>Developed and maintained web applications.</li>
+      <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <h3>Project 1</h3>
+    <p>Description of Project 1.</p>
+    <h3>Project 2</h3>
+    <p>Description of Project 2.</p>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Certification 1</li>
+      <li>Certification 2</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 John Doe</p>
+  </footer>
+</body>
+</html>
